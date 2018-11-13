@@ -113,6 +113,30 @@
     <Compile Include="py_oop\_10_date.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="py_oop\_12_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_12_multi_inher.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_ui\_03_lotto_ui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_ui\_03_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_ui\_01_hello_tkinter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_ui\_02_hello_tkinter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_ui\_02_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_ui\_03_lotto.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tf_basic\tf_test.py">
       <SubType>Code</SubType>
     </Compile>
@@ -121,6 +145,7 @@
     <InterpreterReference Include="CondaEnv|CondaEnv|tensorflow" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="py_ui\" />
     <Folder Include="tf_basic\" />
     <Folder Include="py_oop\" />
     <Folder Include="py_basic\" />
