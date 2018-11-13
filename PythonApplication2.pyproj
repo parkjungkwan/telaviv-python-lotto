@@ -1,0 +1,137 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>f1d81b0e-64f6-4d9d-9bce-7ea10b4ede30</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PythonApplication2.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication2</Name>
+    <RootNamespace>PythonApplication2</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|tensorflow</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PythonApplication2.py" />
+    <Compile Include="py_basic\_01_datatype.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_02_type_conversion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_04_elif.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_04_if.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_05_while_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_05_while.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_06_for.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_07_nested_for.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_08_break.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_09_search_list.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_10_continue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_11_pass.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_12_iter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_13_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_14_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_15_math.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_14_support.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_basic\_16_naming.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_01_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_02_point.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_03_static.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_04_method.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_06_inher.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_07_animal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_07_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_08_calc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_08_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_09_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_09_student.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\_10_date.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|tensorflow" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tf_basic\" />
+    <Folder Include="py_oop\" />
+    <Folder Include="py_basic\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
