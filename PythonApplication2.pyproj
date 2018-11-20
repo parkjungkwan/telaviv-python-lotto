@@ -22,23 +22,50 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bs_txt\consumer_reports.py" />
+    <Compile Include="bs_mvc\Model.py" />
+    <Compile Include="bs_mvc\view.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bs_mvc\main.py" />
+    <Compile Include="bs_requests\bs_bucks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bs_requests\bs_naver.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bs_requests\bs_re.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bs_requests\bs_rail.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sel_\selen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sel_\selen_naver.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bs_urlopen\music.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonApplication2.py" />
-    <Compile Include="py_basic\_01_datatype.py">
+    <Compile Include="py_basic\datatype.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_basic\_02_type_conversion.py">
+    <Compile Include="py_basic\type_conversion.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_basic\_04_elif.py">
+    <Compile Include="py_basic\elif.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_basic\_04_if.py">
+    <Compile Include="py_basic\if.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="py_basic\_05_while_2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_basic\_05_while.py">
+    <Compile Include="py_basic\while.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="py_basic\_06_for.py">
@@ -113,31 +140,34 @@
     <Compile Include="py_oop\_10_date.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_oop\_12_main.py">
+    <Compile Include="py_mul_inher\main.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_oop\_12_multi_inher.py">
+    <Compile Include="py_mul_inher\multi_inher.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_ui\_03_lotto_ui.py">
+    <Compile Include="lotto\view.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_ui\_03_main.py">
+    <Compile Include="lotto\main.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_ui\_01_hello_tkinter.py">
+    <Compile Include="tb_basic\module1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_ui\_02_hello_tkinter.py">
+    <Compile Include="tkinter_basic\hello_tkinter.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_ui\_02_main.py">
+    <Compile Include="tkinter_basic\Label.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="py_ui\_03_lotto.py">
+    <Compile Include="tkinter_basic\main.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="tf_basic\tf_test.py">
+    <Compile Include="lotto\lotto.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\multiply.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -145,7 +175,15 @@
     <InterpreterReference Include="CondaEnv|CondaEnv|tensorflow" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="py_ui\" />
+    <Folder Include="bs_requests\" />
+    <Folder Include="lotto\" />
+    <Folder Include="bs_urlopen\" />
+    <Folder Include="bs_mvc\" />
+    <Folder Include="bs_txt\" />
+    <Folder Include="tb_basic\" />
+    <Folder Include="py_mul_inher\" />
+    <Folder Include="sel_\" />
+    <Folder Include="tkinter_basic\" />
     <Folder Include="tf_basic\" />
     <Folder Include="py_oop\" />
     <Folder Include="py_basic\" />
