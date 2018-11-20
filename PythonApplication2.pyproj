@@ -40,9 +40,7 @@
     <Compile Include="bs_requests\bs_rail.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="sel_\selen.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="sel_\Intro-to-Selenium.py" />
     <Compile Include="sel_\selen_naver.py">
       <SubType>Code</SubType>
     </Compile>
