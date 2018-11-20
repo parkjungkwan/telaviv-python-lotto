@@ -41,6 +41,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sel_\Intro-to-Selenium.py" />
+    <Compile Include="sel_\live-example-consumer-reports-part-2.py" />
     <Compile Include="sel_\selen_naver.py">
       <SubType>Code</SubType>
     </Compile>

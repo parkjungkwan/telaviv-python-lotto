@@ -3,7 +3,7 @@ import re
 
 
 def read_file():
-    file = open('C:\\consumer_reports.txt',
+    file = open('C:/consumer_reports.txt',
                 "rt",
                 encoding='UTF-8'
                 )
